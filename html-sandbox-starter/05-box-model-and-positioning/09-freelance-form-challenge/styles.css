@@ -8,3 +8,48 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f4f4f4;
 }
+
+.container {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #4b5157;
+  color: white;
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px 50px;
+  text-align: center;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  background-color: #b97400;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

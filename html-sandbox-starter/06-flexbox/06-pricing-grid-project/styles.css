@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body {
@@ -16,14 +15,21 @@ body {
 .pricing {
   background-color: #f4f4f4;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  padding: 30px;
+  justify-content: space-around;
+  border-radius: 5px;
 }
 
 .card {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(161, 138, 138, 0.65);
   justify-content: space-between;
   align-items: center;
 }
@@ -48,6 +54,15 @@ body {
   color: white;
 }
 
+.card ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+}
+
 .price {
   font-weight: bold;
   font-size: 20px;
@@ -55,4 +70,24 @@ body {
 
 .price-info {
   text-transform: uppercase;
+}
+
+.main-text {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: coral;
+  border: 2px solid black;
+  border-radius: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: darkblue;
+  color: white;
 }
